@@ -1,0 +1,10 @@
+node_modules
+*.cpuprofile
+.cache
+.config
+.dependencygraph
+.upm
+.vscode
+.DS_Store
+.idea
+.env

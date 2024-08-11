@@ -1,0 +1,21 @@
+{
+  "$schema": "./node_modules/@openapitools/openapi-generator-cli/config.schema.json",
+  "spaces": 2,
+  "generator-cli": {
+    "version": "7.4.0",
+    "generators": {
+      "poizon-api": {
+        "generatorName": "php",
+        "inputSpec": "http://poizon-api.com/api/dewu/api-json",
+        "output": "openapi",
+        "additionalProperties": {
+          "apiPackage": "api",
+          "modelPackage": "models",
+          "withSeparateModelsAndApi": "true",
+          "sortParamsByRequiredFlag": "true",
+          "sortModelPropertiesByRequiredFlag": "true"
+        }
+      }
+    }
+  }
+}
