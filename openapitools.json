@@ -5,7 +5,7 @@
     "version": "7.4.0",
     "generators": {
       "poizon-api": {
-        "generatorName": "php",
+        "generatorName": "typescript-axios",
         "inputSpec": "http://poizon-api.com/api/dewu/api-json",
         "output": "openapi",
         "additionalProperties": {
